@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <title>Watches</title>
+
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="stylesheet" href="/global.css" />
+    <link rel="stylesheet" href="/build/bundle.css" />
+
+    <script defer src="/build/bundle.js"></script>
+  </head>
+
+  <body class="flex flex-col max-h-screen overflow-hidden">
+    <div class="banner flex flex-auto" id="header">
+      <h1
+        class="absolute text-white text-6xl font-black top-0 left-0 ml-12 mt-8"
+      >
+        Watches
+      </h1>
+    </div>
+    <ul class="flex mt-12">
+      <li
+        class="product overflow-hidden p-4"
+        data-id="1"
+        data-name="Chrono"
+        data-price="230"
+        data-image="/images/product1.jpg"
+      >
+        <a
+          href="product1.html"
+          class="overflow-hidden h-64 rounded-lg block product-link"
+        >
+          <img src="/images/product1.jpg" alt="" class="max-w-none h-full" />
+        </a>
+        <div class="product-info flex mt-4 px-2">
+          <h2 class="text-2xl font-black flex-auto">Chrono</h2>
+          <a href="xyz" data-add-to-cart="product-id" class="xysl">content</a>
+        </div>
+      </li>
+
+      <li
+        class="product overflow-hidden p-4"
+        data-id="2"
+        data-name="Classic"
+        data-price="60"
+        data-image="/images/product2.jpg"
+      >
+        <a
+          href="product2.html"
+          class="overflow-hidden h-64 rounded-lg block product-link"
+        >
+          <img src="/images/product2.jpg" alt="" class="max-w-none h-full" />
+        </a>
+        <div class="product-info flex mt-4 px-2">
+          <h2 class="text-2xl font-black flex-auto">Classic</h2>
+        </div>
+      </li>
+
+      <li
+        class="product overflow-hidden p-4"
+        data-id="3"
+        data-name="Leather"
+        data-price="110"
+        data-image="/images/product3.jpg"
+      >
+        <a
+          href="product3.html"
+          class="overflow-hidden h-64 rounded-lg block product-link"
+        >
+          <img src="/images/product3.jpg" alt="" class="max-w-none h-full" />
+        </a>
+        <div class="product-info flex mt-4 px-2">
+          <h2 class="text-2xl font-black flex-auto">Leather</h2>
+        </div>
+      </li>
+
+      <li
+        class="product overflow-hidden p-4"
+        data-id="4"
+        data-name="Classicv2"
+        data-price="85"
+        data-image="/images/product4.jpg"
+      >
+        <a
+          href="product4.html"
+          class="overflow-hidden h-64 rounded-lg block product-link"
+        >
+          <img src="/images/product4.jpg" alt="" class="max-w-none h-full" />
+        </a>
+        <div class="product-info flex mt-4 px-2">
+          <h2 class="text-2xl font-black flex-auto">Classic v2</h2>
+        </div>
+      </li>
+    </ul>
+
+    <div
+      id="cart"
+      class="flex flex-col flex-wrap absolute top-0 right-0 bottom-0 bg-white w-1/3"
+    ></div>
+  </body>
+</html>
