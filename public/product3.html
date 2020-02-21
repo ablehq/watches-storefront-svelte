@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <title>Svelte app</title>
+
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="stylesheet" href="/global.css" />
+    <link rel="stylesheet" href="/build/bundle.css" />
+
+    <script defer src="/build/bundle.js"></script>
+  </head>
+
+  <body class="">
+    <div class="" id="header"></div>
+    <div class="max-h-screen overflow-hidden flex">
+      <div class="w-1/2 h-screen overflow-hidden">
+        <img src="images/product3.jpg" alt="" class="h-screen max-w-none" />
+      </div>
+      <div
+        class="w-1/2 pt-24 px-12 product"
+        data-id="3"
+        data-name="Leather"
+        data-price="110"
+        data-image="/images/product3.jpg"
+      >
+        <h1 class="text-6xl font-black mb-4">
+          Chrono
+        </h1>
+        <h4 class="text-small font-bold uppercase opacity-50 mb-2">
+          Description
+        </h4>
+        <p class="text-xl mb-4">
+          Tangente, the iconic NOMOS timepiece, is celebrating its updated date
+          from all sides—and interpreting it in an entirely new way: The date
+          ring, placed far out around the edge of the dial, features two red
+          dots that frame the current date. An aesthetic that can be attributed
+          to the new neomatik caliber within. It's unique, and unmistakably
+          NOMOS Glashütte.
+        </p>
+        <div class="product-info"></div>
+      </div>
+      <div
+        id="cart"
+        class="flex flex-col flex-wrap absolute top-0 right-0 bottom-0 bg-white w-1/3"
+      ></div>
+    </div>
+  </body>
+</html>
