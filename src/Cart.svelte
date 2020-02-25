@@ -6,8 +6,6 @@
   import { flip } from "svelte/animate";
   import { quintOut } from "svelte/easing";
 
-  import Tailwindcss from "./Tailwindcss.svelte";
-
   function reset() {
     cart.reset();
   }
@@ -38,8 +36,6 @@
 <style>
 
 </style>
-
-<Tailwindcss />
 
 <div class="flex w-full mt-4 px-4 ">
   <div class="flex-auto" />
