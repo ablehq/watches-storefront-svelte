@@ -16,7 +16,7 @@
 </script>
 
 <a
-  href="#"
+  href="javascript:void:(0)"
   data-id="product checked"
   on:click={addToCart}
   on:click={showCart}
